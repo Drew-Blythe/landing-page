@@ -37,10 +37,11 @@ a {
 
 .text-container {
     display:flex;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
     margin-right: 8vw;
     margin-top: 8vh;
-    align-items: flex-start;
 
 }
 .left-text {
@@ -50,23 +51,31 @@ a {
 }
 
 .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 80px 150px;
     color: white;
     background-color: grey;
 }
 
-.big-text {
-    color: white;
-}
-
-.small-text {
-    color: white;
-}
-
-.sign1 {
+button {
     width: 100px;
     height: 30px;
     background-color: #0f6eff; 
     color: white;
+    margin-top: 5px;
 
+}
+
+h1, p{
+    color: white;
+    margin-top: 2vh;
+    margin-bottom: 5px;
+    width: 400px;
+
+}
+
+h1 {
+    font-size: 2.5em;
 }
