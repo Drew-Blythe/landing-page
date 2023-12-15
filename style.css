@@ -157,7 +157,10 @@ body {
 .bottom-subtext{
     margin:0 0 40px 0;
 }
-
+.call {
+    display: flex;
+    text-align: start;
+}
 .call {
     margin:80px 150px 80px 150px;
     justify-content: space-around;
