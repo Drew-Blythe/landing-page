@@ -1,4 +1,8 @@
 
+{
+    border: solid;
+    border-color: red;
+}
 
 ul {
     display: flex;
@@ -63,6 +67,7 @@ button {
     background-color: #0f6eff;
     color: white;
     margin-top: 0;
+    border-radius: 10px;
 }
 
 body {
@@ -109,4 +114,77 @@ body {
     width: 400px;
     margin-bottom: 10px;
     margin-top: 0;
+}
+.quote {
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 7em 13em;
+}
+
+.quoted {
+    height: 10vh;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:400;
+    color:#1F2937
+}
+
+.quoter {
+    font-style: italic;
+    flex-basis: 200px;
+    color:#1F2937
+}
+
+.quoter{
+    flex-basis: 200px;
+}
+.call{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:5px;
+    
+}
+
+.quoter{
+    padding-left:150px;
+}
+.bottom-header{
+    font-weight: 900;
+    font-size: 18px;
+    margin:40px 0 0 0;
+}
+
+.bottom-subtext{
+    margin:0 0 40px 0;
+}
+
+.call {
+    margin:80px 150px 80px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height:140px;
+    width:1000px;
+}
+
+.bottom-button{
+    align-self: center;
+    padding:5px 25px 5px 25px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size:10px;
 }
